@@ -80,7 +80,5 @@ public class DefensiveCoverageChecker {
 		if(immunities.size() > 0) {
 			System.out.println("Your Pokemon is immune to the following types: " + immunities);
 		} else {System.out.println("Your Pokemon has no immunities");}
-	}
-		
-		
+	}	
 }
