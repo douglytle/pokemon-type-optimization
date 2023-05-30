@@ -1,15 +1,15 @@
 neutral:
 
-[]
+[[Normal, Fire], [Normal, Water], [Normal, Electric], [Normal, Grass], [Normal, Poison], [Normal, Ground], [Normal, Flying], [Normal, Bug], [Fire, Water], [Fire, Electric], [Fire, Grass], [Fire, Ice], [Fire, Fighting], [Fire, Poison], [Fire, Ground], [Fire, Flying], [Fire, Bug], [Fire, Rock], [Fire, Dark], [Water, Electric], [Water, Grass], [Water, Ice], [Water, Poison], [Water, Ground], [Water, Flying], [Water, Bug], [Water, Rock], [Electric, Grass], [Electric, Ice], [Electric, Poison], [Electric, Ground], [Electric, Flying], [Electric, Bug], [Electric, Rock], [Grass, Poison], [Grass, Ground], [Grass, Flying], [Grass, Bug], [Fighting, Poison], [Poison, Ground], [Poison, Flying], [Poison, Bug], [Poison, Dark], [Ground, Flying], [Ground, Bug], [Flying, Bug], [Dragon, Steel], [Normal, Steel], [Fire, Steel], [Water, Steel], [Electric, Steel], [Grass, Steel], [Ice, Steel], [Poison, Steel], [Ground, Steel], [Flying, Steel], [Bug, Steel], [Rock, Steel], [Fire, Fairy], [Water, Fairy], [Electric, Fairy], [Steel, Fairy], [Fighting, Steel], [Dark, Steel]]
 
 se:
 
-[]
+[[Normal, Dragon], [Fire, Dragon], [Water, Dragon], [Electric, Dragon], [Grass, Dragon], [Ice, Dragon], [Poison, Dragon], [Ground, Dragon], [Flying, Dragon], [Psychic, Dragon], [Bug, Dragon], [Rock, Dragon], [Ghost, Dragon], [Normal, Psychic], [Normal, Ghost], [Fire, Psychic], [Fire, Ghost], [Water, Psychic], [Water, Ghost], [Electric, Psychic], [Electric, Ghost], [Grass, Psychic], [Grass, Ghost], [Ice, Psychic], [Ice, Ghost], [Poison, Psychic], [Poison, Ghost], [Ground, Psychic], [Ground, Ghost], [Flying, Psychic], [Flying, Ghost], [Psychic, Bug], [Psychic, Rock], [Psychic, Steel], [Bug, Ghost], [Rock, Ghost], [Ghost, Steel], [Normal, Ice], [Normal, Rock], [Normal, Fairy], [Grass, Ice], [Grass, Rock], [Grass, Fairy], [Ice, Fighting], [Ice, Poison], [Ice, Ground], [Ice, Flying], [Ice, Bug], [Ice, Dark], [Fighting, Rock], [Fighting, Fairy], [Poison, Rock], [Poison, Fairy], [Ground, Rock], [Ground, Fairy], [Flying, Rock], [Flying, Fairy], [Psychic, Fairy], [Bug, Rock], [Bug, Fairy], [Rock, Dark], [Ghost, Fairy], [Dragon, Fairy], [Dark, Fairy], [Normal, Fighting], [Normal, Dark], [Water, Fighting], [Water, Dark], [Electric, Fighting], [Electric, Dark], [Grass, Fighting], [Grass, Dark], [Fighting, Ground], [Fighting, Flying], [Fighting, Psychic], [Fighting, Bug], [Fighting, Ghost], [Ground, Dark], [Flying, Dark], [Psychic, Dark], [Bug, Dark], [Ghost, Dark]]
 
 
 sse:
 
-[]
+[[Psychic, Ghost], [Ice, Rock], [Ice, Fairy], [Rock, Fairy], [Fighting, Dragon], [Fighting, Dark], [Dragon, Dark]]
 
 nve:
 
