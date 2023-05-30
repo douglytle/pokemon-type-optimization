@@ -25,6 +25,8 @@ public class OffensiveCoverageChecker {
 	public OffensiveCoverageChecker(ArrayList<PType> types, PType[] typelist) {
 		
 		this.typelist = typelist;
+		combinationsList = generateTypeCombinations();
+		
 		monotypeNeutral = new ArrayList<String>();
 		monotypeResists = new ArrayList<String>();
 		monotypeWeakTo = new ArrayList<String>();
@@ -35,8 +37,6 @@ public class OffensiveCoverageChecker {
 		quadResists = new ArrayList<ArrayList<String>>();
 		quadWeakTo = new ArrayList<ArrayList<String>>();
 		immunities = new ArrayList<ArrayList<String>>();
-		
-		combinationsList = generateTypeCombinations();
 		
 		if(types.size() == 1) {
 			double[] coverage = types.get(0).getOffensiveCoverage();

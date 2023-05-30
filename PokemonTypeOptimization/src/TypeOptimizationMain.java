@@ -15,7 +15,7 @@ public class TypeOptimizationMain {
 			modeSelect = scan.nextLine().toLowerCase();
 			if(modeSelect.contains("o")) {
 				while(true) {
-					System.out.println("\nEnter Typing: ");
+					System.out.println("\nEnter up to 4 types: ");
 					typeInput = scan.nextLine().toLowerCase();
 					if(typeInput.contains("stop")) {
 						break;
@@ -26,20 +26,20 @@ public class TypeOptimizationMain {
 							parsedTypes.add(typelist[i]);
 						}
 					}
-					if(parsedTypes.size() == 1) {
+					if(parsedTypes.size() == 1 || parsedTypes.size() == 2 || parsedTypes.size() == 3 || parsedTypes.size() == 4) {
 						OffensiveCoverageChecker o = new OffensiveCoverageChecker(parsedTypes, typelist);
 						o.printResults();
 						o.printResultsToFile();
 					} else if(parsedTypes.size() == 0){
 						System.out.println("No valid types found in input. Try again");
 					} else {
-						System.out.println("Only one move at a time is currently supported");
+						System.out.println("Only up to 4 moves at a time is currently supported");
 					}
 					
 				}
 			} else if(modeSelect.contains("d")) {
 				while(true) {
-					System.out.println("\nEnter Typing: ");
+					System.out.println("\nEnter up to 2 types: ");
 					typeInput = scan.nextLine().toLowerCase();
 					if(typeInput.contains("stop")) {
 						break;
